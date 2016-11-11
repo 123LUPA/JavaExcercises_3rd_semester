@@ -1,0 +1,22 @@
+package Trees;
+
+/**
+ * Created by Palko on 02/05/2016.
+ */
+public class IntTreeNode {
+
+    public int data;
+    public IntTreeNode left;
+    public IntTreeNode right;
+
+    public IntTreeNode(int data){
+        this(data,null,null);
+    }
+
+    public IntTreeNode(int data,IntTreeNode left, IntTreeNode right){
+
+        this.data=data;
+        this.left=left;
+        this.right=right;
+    }
+}
